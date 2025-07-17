@@ -8,6 +8,11 @@ aws-env - Secure way to handle environment variables in Docker
 1. Populate environment variables while starting application inside the docker container (default)
 2. Generate .env file (--format=dotenv)
 
+## How to build it
+```bash
+make build
+```
+
 ## Usage
 
 1. Add parameters to [Parameter Store](https://console.aws.amazon.com/ec2/v2/home#Parameters:) using hierarchy in names:
