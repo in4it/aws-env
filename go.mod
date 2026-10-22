@@ -1,6 +1,6 @@
 module github.com/in4it/aws-env
 
-go 1.26.1
+go 1.27.3
 
 require github.com/aws/aws-sdk-go v1.55.8
 
